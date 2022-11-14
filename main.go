@@ -27,8 +27,12 @@ func main() {
  var post string
  var workaddress string
  var workphone string
- 
+  
+ var surname string
+ fs(os.Stdin, &surname)
  pln("Фамилия: ")
+  
+  
  pln("Имя: ")
  pln("Отчество: ")
  pln("Дата рождения: ")
